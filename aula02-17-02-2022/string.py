@@ -5,7 +5,7 @@ Autor: Henrique Junqueira Branco
 Enunciado: Introdução aos tipos de dados (string)
 """
 
-nome = "   henrique Alves Junqueira Nogueira Branco   "
+nome = " igor mendes melo "
 
 ### Métodos de string com a sintaxe nome.metodo()
 
@@ -15,17 +15,16 @@ print(f"Nome em minúsculo: {nome.lower()}")
 
 print(f"Primeira letra em maiúsculo: {nome.capitalize()}")
 
-# Atenção às aspas duplas e simples! Comentamos isso na aula!
+# Utilização de aspas simples e duplas
 print(f"Contando quantas vezes a letra 'a' aparece no nome: {nome.count('a')}")
 
 print(f"Removendo espaços em branco no começo e final da string: {nome.strip()}")
 
-# Cuidado com as aspas de novo! Se misturar, dá ruim!
-print(f"Substituindo meu nome por algo engraçado: {nome.replace('henrique', 'xpto')}")
+print(f"Substituindo meu nome por algo engraçado: {nome.replace('igor', 'xpto')}")
 
 print(f"Separando o nome em partes: {nome.split()}")
 
 ### Função len()
 
-# Os espaços em branco contam, lembram?
+# Espaço em branco conta
 print(f"A minha string contém {len(nome)} caracteres")
