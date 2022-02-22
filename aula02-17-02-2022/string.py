@@ -16,7 +16,7 @@ print(f"Nome em minúsculo: {nome.lower()}")
 print(f"Primeira letra em maiúsculo: {nome.capitalize()}")
 
 # Utilização de aspas simples e duplas
-print(f"Contando quantas vezes a letra 'a' aparece no nome: {nome.count('a')}")
+print(f"Contando quantas vezes a letra 'e' aparece no nome: {nome.count('e')}")
 
 print(f"Removendo espaços em branco no começo e final da string: {nome.strip()}")
 
